@@ -14,7 +14,7 @@ class LoginController extends Controller
 
     public function acesso(Request $request)
     {
-        var_dump($_POST);
+        return view('Home');
     }
 
 }

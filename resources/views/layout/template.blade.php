@@ -10,6 +10,7 @@
     @stack('style')
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css">
 
 </head>
 <body>
@@ -19,5 +20,6 @@
     @yield('content')
     <script src="/javascript/home.js"></script>
     @stack('script')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.js"></script>
 </body>
 </html>
