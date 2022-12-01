@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Source+Sans+Pro:ital,wght@1,300&family=Work+Sans:wght@100&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.home{
+    background-image: url('/imagens/home-tela.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.logo-header{
+    position: relative;
+    top: 16rem;
+    margin-left: 5rem;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+}
+
+.nav-lista li{
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
+
+.frase-home{
+    color: black;
+    text-decoration: none;
+}
+
+#marca_one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frase-marca{
+    margin-top: 5rem;
+}
+
+.frase-marca h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+}
+
+.empresas-marcas{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.empresas-marcas .marcas{
+    padding: 5px;
+}
+
+.descrition img{
+    width: 25rem;
+    padding: 10px;
+}
+
+footer{
+    background-color: #d5ebe9;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-rodape h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.rede-sociais a{
+    padding: 1rem;
+}
+
+.rede-sociais i{
+    color: #070d12;
+    size: 2rem;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #446CA6 #070d12;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+background: #d5ebe9;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #a6b6ce;
+border-radius: 20px;
+border: 3px solid #1d1e1f;
+}
