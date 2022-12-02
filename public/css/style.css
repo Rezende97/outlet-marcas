@@ -159,3 +159,15 @@ background-color: #a6b6ce;
 border-radius: 20px;
 border: 3px solid #1d1e1f;
 }
+
+.tenis-one, .tenis-two, .tenis-three, .tenis-four, .frase-logo{
+    visibility: hidden;
+}
+
+.icone-client{
+    width: 70px;
+}
+
+.icone-cliente{
+    width: 40px;
+}

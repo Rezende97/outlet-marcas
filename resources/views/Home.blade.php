@@ -5,18 +5,18 @@
 @section('menu')
     <header class="home">
         <div class="logo-header">
-            <h1>Outlet Marcas</h1>
+            <h1 class="frase-logo">Outlet Marcas</h1>
         </div>
         <nav>
             <ul class="nav-lista">
                 <li>
                     <a href="/login" class="frase-home">
-                        Login
+                        <img src="/imagens/icones/icone-login-novo.png" alt="login" title="Login de Acesso" class="icone-client">
                     </a>
                 </li>
                 <li>
                     <a href="" class="frase-home">
-                        Carrinho
+                        <img src="/imagens/icones/carrinho-de-compra-novo.png" alt="carrinho de compra" title="Carrinho de Compra" class="icone-cliente">
                     </a>
                 </li>
             </ul>
@@ -39,11 +39,11 @@
                 <div class="marcas">
 
                     <div class="descrition">
-                        <img src="/imagens/tenis_one.webp" alt="Tenis" title="Tenis 23">
+                        <img src="/imagens/tenis_one.webp" alt="Tenis" title="Tenis 23" class="tenis-one">
                     </div>
 
                     <div class="descrition">
-                        <img src="/imagens/tenis_neve.jpeg" alt="Caminha sobre a neve" title="Caminha sobre a neve">
+                        <img src="/imagens/tenis_neve.jpeg" alt="Caminha sobre a neve" title="Caminha sobre a neve" class="tenis-two">
                     </div>
 
                 </div>
@@ -51,11 +51,11 @@
                 <div class="marcas">
 
                     <div class="descrition">
-                        <img src="/imagens/tenis_three.jpeg" alt="Caminhando ao Sol" title="Caminhando ao Sol">
+                        <img src="/imagens/tenis_three.jpeg" alt="Caminhando ao Sol" title="Caminhando ao Sol" class="tenis-three">
                     </div>
                     
                     <div class="descrition">
-                        <img src="/imagens/tenis_four.jpeg" alt="Paisagem sobre a água" title="Paisagem sobre a água">
+                        <img src="/imagens/tenis_four.jpeg" alt="Paisagem sobre a água" title="Paisagem sobre a água" class="tenis-four">
                     </div>
 
                 </div>
